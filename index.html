@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>colour-Picker</title>
+</head>
+<body>
+    <div id="maincont" class="d1">
+        <h1>COLOR PICKER</h1>
+        <br>
+        <div class="color-cont">
+            <div onclick="ChangeColor()" id="box1" class="box">
+                <label>#e0e0e0</label>
+            </div>
+            <div onclick="ChangeColorGreen()" class="box box2">
+                <label>#6fcf97</label>
+            </div>
+            <div onclick="ChangeColorBlue()" class="box box3">
+                <label>#56ccf2</label>
+            </div>
+            <div onclick="ChangeColorViolet()" class="box box4">
+                <label>#bb6bd9</label>
+            </div>
+        </div>
+        <br><br>
+        <h2 id="bgheading"> Background Color: <span id="bgText" class="bg-label"></span> </h2>
+        <br><br>
+        <p>Try Clicking on One of the color above to change the Background color of this page</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
